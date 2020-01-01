@@ -1,0 +1,3 @@
+${PODS_ROOT}/Target Support Files/Pods-cameraTrial/Pods-cameraTrial-frameworks.sh
+${BUILT_PRODUCTS_DIR}/GPUImage/GPUImage.framework
+${BUILT_PRODUCTS_DIR}/TesseractOCRiOS/TesseractOCR.framework
