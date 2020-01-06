@@ -10,7 +10,7 @@
         <!--ViewController-->
         <scene sceneID="G9u-WI-rvu">
             <objects>
-                <viewController title="ViewController" id="Q6C-6B-MOn" customClass="ViewController" customModule="test" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController title="ViewController" id="Q6C-6B-MOn" customClass="ViewController" customModule="cameraTrial" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="hog-m6-Wgn">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -25,6 +25,14 @@
                                     <action selector="takePicture:" destination="Q6C-6B-MOn" eventType="touchUpInside" id="49j-Uz-GoO"/>
                                 </connections>
                             </button>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" id="Cxk-5t-Rdc">
+                                <rect key="frame" x="87" y="520" width="240" height="128"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                <color key="textColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <constraints>
@@ -40,6 +48,7 @@
                     </view>
                     <connections>
                         <outlet property="imageView" destination="IT2-F8-V3G" id="zd9-qP-nJD"/>
+                        <outlet property="textView" destination="Cxk-5t-Rdc" id="5Mz-Cm-Op5"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="uTF-Vv-VZY" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>

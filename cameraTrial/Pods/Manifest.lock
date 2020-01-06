@@ -1,0 +1,20 @@
+PODS:
+  - TesseractOCRiOS (5.0.1)
+
+DEPENDENCIES:
+  - TesseractOCRiOS
+
+SPEC REPOS:
+  trunk:
+    - TesseractOCRiOS
+
+SPEC CHECKSUMS:
+  TesseractOCRiOS: 2c189465f86abb030d0c5141c90da9705b647854
+
+<<<<<<< HEAD:Love In A Snap/Love In A Snap Starter/Pods/Manifest.lock
+PODFILE CHECKSUM: ce4a397af2e2fd78ade4aa4a832d1b813a9ece57
+=======
+PODFILE CHECKSUM: f7aa7189d5cadeef41a1975d515672026a79314e
+>>>>>>> 2e3c6861aeb3937cc982b256c29f328c7d389058:cameraTrial/Pods/Manifest.lock
+
+COCOAPODS: 1.8.4

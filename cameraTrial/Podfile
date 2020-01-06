@@ -1,0 +1,8 @@
+platform :ios, '12.1'
+
+target 'cameraTrial' do
+  use_frameworks!
+
+  pod 'TesseractOCRiOS'
+
+end
