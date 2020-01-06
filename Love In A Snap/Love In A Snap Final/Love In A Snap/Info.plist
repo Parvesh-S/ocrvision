@@ -20,10 +20,10 @@
 	<string>1</string>
 	<key>LSRequiresIPhoneOS</key>
 	<true/>
-    <key>NSCameraUsageDescription</key>
-    <string>We need access to your camera to take pictures your text.</string>
-    <key>NSPhotoLibraryUsageDescription</key>
-    <string>We need access to your photo library to access pictures of your text.</string>
+	<key>NSCameraUsageDescription</key>
+	<string>We need access to your camera to take pictures your text.</string>
+	<key>NSPhotoLibraryUsageDescription</key>
+	<string>We need access to your photo library to access pictures of your text.</string>
 	<key>UILaunchStoryboardName</key>
 	<string>LaunchScreen</string>
 	<key>UIMainStoryboardFile</key>

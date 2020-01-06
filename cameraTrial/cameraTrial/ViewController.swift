@@ -9,7 +9,7 @@
 import Foundation
 import UIKit
 
-class ViewController: UIViewController {
+class ViewController: UIViewController, UIImagePickerControllerDelegate, UINavigationControllerDelegate{
     
     @IBOutlet weak var imageView: UIImageView!
     let pickerController = UIImagePickerController()
@@ -23,19 +23,20 @@ class ViewController: UIViewController {
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
     }
+    
     @IBAction func takePicture(_ sender: Any) {
         present(pickerController,animated: true, completion: nil)
     }
     
-}
-extension ViewController: UIImagePickerControllerDelegate{
     func imagePickerController(_ picker: UIImagePickerController, didFinishPickingMediaWithInfo info: [UIImagePickerController.InfoKey : Any]) {
-        
-        picker.dismiss(animated: true, completion: nil)
+        print("hey")
         self.imageView.image = info[UIImagePickerController.InfoKey.originalImage] as? UIImage
+        picker.dismiss(animated: true, completion: nil)
+        
     }
     func imagePickerControllerDidCancel(_ picker: UIImagePickerController) {
         print("The camera has been closed")
+        picker.dismiss(animated: true, completion: nil)
+
     }
 }
-extension ViewController: UINavigationControllerDelegate{}

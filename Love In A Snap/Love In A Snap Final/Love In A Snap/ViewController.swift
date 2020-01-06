@@ -91,7 +91,7 @@ class ViewController: UIViewController {
     let scaledImage = image.scaledImage(1000) ?? image
     let preprocessedImage = scaledImage.preprocessedImage() ?? scaledImage
     
-    if let tesseract = G8Tesseract(language: "eng+fra") {
+    if let tesseract = G8Tesseract(language: "eng") {
       tesseract.engineMode = .tesseractCubeCombined
       tesseract.pageSegmentationMode = .auto
       
